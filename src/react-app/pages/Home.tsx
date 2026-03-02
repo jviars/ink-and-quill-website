@@ -197,7 +197,7 @@ export default function Home() {
                   className="border-stone-300 hover:bg-stone-100"
                   asChild
                 >
-                  <a href="https://discord.gg/dzt3qRZNfS" target="_blank" rel="noopener noreferrer">
+                  <a href="https://discord.gg/GCysYxkCpE" target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5 mr-2 text-indigo-500" />
                     Join the Discord
                   </a>
@@ -461,7 +461,7 @@ export default function Home() {
               <h4 className="text-white font-semibold mb-4">Support</h4>
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
-                <li><a href="https://discord.gg/dzt3qRZNfS" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a></li>
+                <li><a href="https://discord.gg/GCysYxkCpE" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a></li>
               </ul>
             </div>
           </div>

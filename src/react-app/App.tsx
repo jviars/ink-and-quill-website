@@ -3,7 +3,7 @@ import HomePage from "@/react-app/pages/Home";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/ink-and-quill-website">
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>

@@ -219,7 +219,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative transform rotate-1 hover:rotate-0 transition-transform duration-500 rounded-xl overflow-hidden shadow-2xl shadow-stone-900/20 border border-stone-200/50">
                 <img
-                  src="/app-screenshot.png"
+                  src={`${import.meta.env.BASE_URL}app-screenshot.png`}
                   alt="Ink & Quill Editor"
                   className="w-full object-cover block"
                 />
@@ -410,22 +410,22 @@ export default function Home() {
             <Dialog>
               <DialogTrigger asChild>
                 <button className="w-full md:w-1/2 block rounded-xl overflow-hidden shadow-2xl shadow-amber-900/20 border border-stone-200/50 hover:shadow-amber-900/40 transition-shadow cursor-zoom-in">
-                  <img src="/quill1.png" alt="Ink & Quill Interface 1" className="w-full object-cover block" />
+                  <img src={`${import.meta.env.BASE_URL}quill1.png`} alt="Ink & Quill Interface 1" className="w-full object-cover block" />
                 </button>
               </DialogTrigger>
               <DialogContent className="max-w-[95vw] sm:max-w-[90vw] md:max-w-[85vw] lg:max-w-[80vw] xl:max-w-7xl p-0 border-none bg-transparent shadow-none">
-                <img src="/quill1.png" alt="Ink & Quill Interface 1" className="w-full h-auto rounded-xl object-contain" />
+                <img src={`${import.meta.env.BASE_URL}quill1.png`} alt="Ink & Quill Interface 1" className="w-full h-auto rounded-xl object-contain" />
               </DialogContent>
             </Dialog>
 
             <Dialog>
               <DialogTrigger asChild>
                 <button className="w-full md:w-1/2 block rounded-xl overflow-hidden shadow-2xl shadow-amber-900/20 border border-stone-200/50 hover:shadow-amber-900/40 transition-shadow cursor-zoom-in">
-                  <img src="/quill2.png" alt="Ink & Quill Interface 2" className="w-full object-cover block" />
+                  <img src={`${import.meta.env.BASE_URL}quill2.png`} alt="Ink & Quill Interface 2" className="w-full object-cover block" />
                 </button>
               </DialogTrigger>
               <DialogContent className="max-w-[95vw] sm:max-w-[90vw] md:max-w-[85vw] lg:max-w-[80vw] xl:max-w-7xl p-0 border-none bg-transparent shadow-none">
-                <img src="/quill2.png" alt="Ink & Quill Interface 2" className="w-full h-auto rounded-xl object-contain" />
+                <img src={`${import.meta.env.BASE_URL}quill2.png`} alt="Ink & Quill Interface 2" className="w-full h-auto rounded-xl object-contain" />
               </DialogContent>
             </Dialog>
           </div>
